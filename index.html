@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Micro Mercado - Productos</title>
+    <!-- Enlace a Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Personalización de estilos adicionales */
+        .product {
+            border: 1px solid #ddd;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+        .product img {
+            max-width: 100px;
+            margin-right: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-dark text-white text-center py-4">
+        <h1>Micro Mercado</h1>
+        <p>Tu lugar de compras convenientes</p>
+        <!-- Botones de navegación -->
+        <div class="container">
+            <a href="#nuestros-productos" class="btn btn-primary mr-2">Nuestros Productos</a>
+            <a href="#otros-productos" class="btn btn-primary">Otros Productos</a>
+        </div>
+    </header>
+
+    <!-- Contenido de la página -->
+    <div class="container mt-4">
+        <h2 class="mb-4">Nuestros Productos</h2>
+        <!-- Producto Destacado -->
+        <div class="row">
+            <div class="col-md-6">
+                <img src="papa.webp" alt="Producto Destacado" class="img-fluid" height="500px" width="500px">
+            </div>
+            <div class="col-md-6">
+                <h3>Papa</h3>
+                <p>Precio: $15.99</p>
+                <p>Descripción: Este es nuestro producto más popular y destacado.</p>
+                <button class="btn btn-primary">Agregar al Carrito</button>
+            </div>
+        </div>
+        <!-- Agrega más contenido aquí -->
+
+        <h2 id="nuestros-productos" class="mt-4 mb-4">Nuestros Productos</h2>
+        <!-- Bloque de Productos -->
+        <div class="row">
+            <!-- Producto 1 -->
+            <div class="col-md-4">
+                <div class="product">
+                    <img src="cebolla.png" alt="Cebolla" class="img-fluid" height="300px" width="300px">
+                    <h3>Cebolla</h3>
+                    <p>Precio: $12.99</p>
+                    <p>Descripción: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <button class="btn btn-primary">Agregar al Carrito</button>
+                </div>
+            </div>
+            <!-- Producto 2 -->
+            <div class="col-md-4">
+                <div class="product">
+                    <img src="banana.png" alt="Producto 4" class="img-fluid">
+                    <h3>Banana</h3>
+                    <p>Precio: $9.99</p>
+                    <p>Descripción: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <button class="btn btn-primary">Agregar al Carrito</button>
+                </div>
+            </div>
+            <!-- Producto 3 -->
+            <div class="col-md-4">
+                <div class="product">
+                    <img src="tomate.png" alt="Producto 5" class="img-fluid">
+                    <h3>Tomate</h3>
+                    <p>Precio: $7.99</p>
+                    <p>Descripción: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <button class="btn btn-primary">Agregar al Carrito</button>
+                </div>
+            </div>
+        </div>
+
+        <h2 id="otros-productos" class="mt-4 mb-4">Otros Productos</h2>
+        <!-- Bloque de Otros Productos -->
+        <div class="row">
+            <!-- Producto 1 -->
+            <div class="col-md-4">
+                <div class="product">
+                    <img src="leche.png" alt="Producto 3" class="img-fluid">
+                    <h3>Leche</h3>
+                    <p>Precio: $12.99</p>
+                    <p>Descripción: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <button class="btn btn-primary">Agregar al Carrito</button>
+                </div>
+            </div>
+            <!-- Producto 2 -->
+            <div class="col-md-4">
+                <div class="product">
+                    <img src="dulce.webp" alt="Producto 4" class="img-fluid">
+                    <h3>BonBonBum</h3>
+                    <p>Precio: $9.99</p>
+                    <p>Descripción: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <button class="btn btn-primary">Agregar al Carrito</button>
+                </div>
+            </div>
+            <!-- Producto 3 -->
+            <div class="col-md-4">
+                <div class="product">
+                    <img src="puchos.png" alt="Producto 5" class="img-fluid">
+                    <h3>Cigarrillos</h3>
+                    <p>Precio: $7.99</p>
+                    <p>Descripción: Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <button class="btn btn-primary">Agregar al Carrito</button>
+                </div>
+            </div>
+            <!-- Más productos aquí -->
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4 mt-4">
+        <div class="container">
+            <h4>Contacto</h4>
+            <p>Correo: info@micromercado.com</p>
+            <p>Teléfono: +123 456 7890</p>
+        </div>
+    </footer>
+
+    <!-- Enlace a Bootstrap JS (opcional) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        // Código JavaScript para desplazamiento suave
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Obtener el año actual y mostrarlo en el footer
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
