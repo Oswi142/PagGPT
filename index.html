@@ -7,16 +7,20 @@
     <!-- Enlace a Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
-        /* Personalización de estilos adicionales */
-        .product {
-            border: 1px solid #ddd;
-            padding: 1rem;
-            margin-bottom: 1rem;
-        }
-        .product img {
-            max-width: 100px;
-            margin-right: 1rem;
-        }
+    /* Personalización de estilos adicionales */
+    .product {
+        border: 1px solid #ddd;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        transition: transform 0.3s; /* Agregar transición */
+    }
+    .product img {
+        max-width: 100px;
+        margin-right: 1rem;
+    }
+    .product:hover {
+        transform: scale(1.05); /* Efecto de crecimiento al pasar el cursor */
+    }
     </style>
 </head>
 <body>
